@@ -1,26 +1,32 @@
 @charset "UTF-8";
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 body{
-    background-color: #202020;
+    background-image: url(images/bg-mobile.svg);
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #674bb1; */
+    align-items: center;
 }
+
 main{
-    background-color: #674bb1;
-    width: 400px;
-    height: 750px;
+    background-color: red;
+    width: 50%;
+    max-width: 470px;
 }
 h1{
-    width: 380px;
+    width: 50%;
+    background-color: blue;
     color: #ffffff;
+    font-size: 20px;
 }
 p{
-    width: 330px;
+    width: 50px;
     color: #ad9e9e;
 }
 div{
@@ -29,4 +35,4 @@ div{
     
     text-align: center;
     width: 150px;
-}
+} 
