@@ -1,38 +1,13 @@
 @charset "UTF-8";
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
+
 body{
-    background-image: url(images/bg-mobile.svg);
+    background-color: #674bb1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: nowrap;
+}
+header{
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: #674bb1; */
-    align-items: center;
+    background-image: url(images/bg-mobile.svg);
 }
-
-main{
-    background-color: red;
-    width: 50%;
-    max-width: 470px;
-}
-h1{
-    width: 50%;
-    background-color: blue;
-    color: #ffffff;
-    font-size: 20px;
-}
-p{
-    width: 50px;
-    color: #ad9e9e;
-}
-div{
-    background-color: #ffffff;
-    color: #674bb1;
-    
-    text-align: center;
-    width: 150px;
-} 
