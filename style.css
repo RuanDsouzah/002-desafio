@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body{
-    max-width: 400px;
     margin: 0px;
     background-color: #674bb1;
     display: flex;
@@ -13,6 +12,10 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(images/bg-mobile.svg);
+}
+aside{
+    width: 50%;
+    height: 50%;
 }
 section{
     width: 100%;
